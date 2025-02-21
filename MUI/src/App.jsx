@@ -5,6 +5,13 @@ import MUITextField from './components/MUITextField';
 import MUISelect from './components/MUISelect';
 import MUICheckbox from './components/MUICheckbox';
 import MUIAutoComplete from './components/MUIAutoComplete';
+import MUIStack from './components/MUIStack';
+import MUIGrid from './components/MUIGrid';
+import MUICard from './components/MUICard';
+import MUIAccordion from './components/MUIAccordion';
+import MUIAppBar from './components/MUIAppBar';
+
+
 
 function App() {
 
@@ -16,7 +23,13 @@ function App() {
         {/* <MUITextField /> */}
         {/* <MUISelect /> */}
         {/* <MUICheckbox /> */}
-        <MUIAutoComplete />
+        {/* <MUIAutoComplete /> */}
+        {/* <MUIStack /> */}
+        {/* <MUIGrid /> */}
+        {/* <MUICard /> */}
+        {/* <MUIAccordion /> */}
+        <MUIAppBar />
+
       </div>
 
     </>
@@ -24,3 +37,4 @@ function App() {
 }
 
 export default App
+
